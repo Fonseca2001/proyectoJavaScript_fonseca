@@ -26,6 +26,17 @@ h2 {
     padding: 10px;
 }
 
+section h3 {
+    display: flex;
+    justify-content: center;    
+    font-style: italic;
+    font-weight: 900;
+}
+
+section ul {
+    background-color: gainsboro;
+}
+
 /* FOOTER */
 footer {
     background: rgba(0, 0, 0, 0.845);
@@ -54,7 +65,7 @@ footer div {
     
 footer ul li a svg { margin: 1rem; }
 
-div ul li { display: inline-block;}
+div ul li {display: inline-block;}
 
 ul li a svg { margin: 1rem;}
 
