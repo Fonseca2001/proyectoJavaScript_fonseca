@@ -13,6 +13,26 @@ h1 {
 }
 
 /* MAIN */
+
+#btm {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#reloj{
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 20px;
+}
+
+button#btn {
+    background-color: rgb(81, 92, 237);
+    border-radius: 10px;
+}
+
 img { width: 250px;}
 
 h2 {
@@ -35,6 +55,12 @@ section h3 {
 
 section ul {
     background-color: gainsboro;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 /* FOOTER */

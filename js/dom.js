@@ -1,8 +1,8 @@
-const accesoriosSinStock = document.getElementById("dom");
-const accesorios = ["aromatizer", ", valve-caps", ", vacuum-cleaner"];
+let boton = document.getElementById("btn");
+console.log(boton.style);
 
-accesorios.forEach((item) => {
-    const li = document.createElement ("dom");
-    li.textContent = item;
-    accesoriosSinStock.appendChild(li);
-});
+function hideButton() {
+    boton.style.display = 'none'
+}
+
+// hideButton()
